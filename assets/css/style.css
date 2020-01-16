@@ -107,7 +107,9 @@ li {
   Header styling starts here
 =================================*/
 
-
+header {
+  background: #f6eddc;
+}
 
 
 
