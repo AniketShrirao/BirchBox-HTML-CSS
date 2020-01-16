@@ -226,6 +226,8 @@ nav li:nth-child(6) {
 
 .special-head a {
   color: #6fa9ad;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 /*=================================
@@ -240,12 +242,22 @@ nav li:nth-child(6) {
   banner styling starts here
 =================================*/
 
+.banner {
+  background: url('https://via.placeholder.com/1351x402') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-
-
-
-
-
+.banner a {
+  padding: 9px 13px;
+  margin: 319px 0 34px;
+  margin-left: 7.5%;
+  background: #584aa2;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 900; 
+  text-transform: capitalize;
+}
 
 /*=================================
   banner styling ends here
