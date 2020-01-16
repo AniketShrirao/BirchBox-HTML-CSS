@@ -100,19 +100,133 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 72%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
-header {
-  background: #f6eddc;
+header { background: #f6eddc;}
+
+header .wrapper { width: 100%;}
+
+.main-head ,
+.special-head {
+  padding: 0 14%;
+  margin: 0 auto;
 }
 
+.main-head {
+  padding: 18px 14% 12px;
+  display: flex;
+}
 
+.main-head h1 {
+  display: flex;
+  align-items: center;  
+}
 
+.sub-head {
+  padding: 8px 14% 0px;
+  border-bottom: 1px #dfd3c7 solid;
+  color: #534a43;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.sub-head span { 
+  margin: 0px 0 10px;
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.right-anchors {
+  margin-top: 5px;
+  float: right;
+  font-size: 11px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+}
+
+.right-anchors a { color: #534a43;}
+
+.right-anchors a:first-of-type { padding-right: 17px;}
+
+.right-anchors a:last-of-type { padding-left: 16px;}
+
+nav {
+  margin-left: 40px;
+  display: flex;
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+}
+
+nav li:not(:nth-child(5)) { margin:7px 20px 0 33px;} 
+
+nav li:nth-child(1) {margin-left: 0;}
+
+nav li a{ 
+  color: #534a43;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+nav li:nth-child(1){ margin-top: 7px;}
+
+.dropbtn {display: flex;}
+
+.dropbtn span { padding: 0 0 0 16%;}
+
+.dropdown-content { display: none;}
+
+nav li:nth-child(5) {
+  width: 40%;
+  margin-right: 13%;
+  margin-left: 3%;
+  position: relative;
+}
+
+nav input {
+  width: 107%;
+  height: 25px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  border: 1px solid #dcd3ca;
+}
+
+nav button {
+  padding: 5px;
+  background: #fff;
+  border: none;
+  position: absolute;
+  right: -20%;
+  top: 8.5%;
+  font-size: 20px;
+}
+
+nav li:nth-child(6) {
+  position: absolute;
+  right: 180px;
+  font-size: 22px;
+}
+
+.special-head { 
+  padding: 15px 0 12px;
+  background: #fff;
+  text-align: center;
+}
+
+.special-head a {
+  color: #6fa9ad;
+}
 
 /*=================================
   Header styling ends here
