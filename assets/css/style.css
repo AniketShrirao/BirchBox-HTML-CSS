@@ -510,6 +510,8 @@ nav li:nth-child(6) {
   text-transform: uppercase;
 }
 
+.awards ul { margin-bottom: 25px;}
+
 .awards li { margin: 0 22.5px;}
 
 .awards li:first-of-type { margin-left: 0;}
@@ -518,6 +520,35 @@ nav li:nth-child(6) {
 
  /*=================================
   awards styling ends here
+=================================*/ 
+
+/*=================================
+  reviews styling starts here
+=================================*/ 
+
+.reviews{ 
+  padding-top: 60px;
+  text-align: center;
+}
+
+.reviews .wrapper {
+  padding-bottom: 55px;
+  border-bottom: 3px solid #f2f0a3 ;
+  display: inline-block;
+}
+
+.reviews h3 { 
+  margin-bottom: 80px;
+  color: #4c4a4d;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+
+ /*=================================
+  reviews styling ends here
 =================================*/ 
 
 /*=================================
