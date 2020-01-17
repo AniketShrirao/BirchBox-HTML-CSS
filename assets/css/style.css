@@ -452,6 +452,28 @@ nav li:nth-child(6) {
 =================================*/ 
 
 /*=================================
+  shop styling starts here
+=================================*/ 
+
+.shop { 
+  padding-top: 60px;
+  text-align: center;
+}
+
+.shop .wrapper {
+  padding-bottom: 55px;
+  border-bottom: 3px solid #f2f0a3 ;
+}
+
+
+
+
+
+ /*=================================
+  shop styling ends here
+=================================*/ 
+
+/*=================================
   main styling ends here
 =================================*/
 
