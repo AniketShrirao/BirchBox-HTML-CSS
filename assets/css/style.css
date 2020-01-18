@@ -199,13 +199,14 @@ nav li:nth-child(1){ margin-top: 7px;}
   display: flex;
   flex-direction: column;
   position: absolute;
-  transition: all 7s ease-out;
+  transition: all .7s ease-out;
   z-index: 1;
 }
 
 .dropdown:hover + .dropdown-content a {
   margin: 5px;
   font-size: 11px;
+  transition: all .7s ease-out;
 }
 
 nav li:nth-child(5) {
@@ -264,7 +265,9 @@ nav li:nth-child(6) {
 .special-head a:hover,
 .special-head span:hover {
   background: none;
-  color: #534a43;}
+  color: #534a43;
+  transition: all .7s ease-out;
+}
 
 /*=================================
   Header styling ends here
@@ -298,6 +301,7 @@ nav li:nth-child(6) {
 .banner a:hover {
   background: #fff;
   color:  #584aa2;
+  transition: all .7s ease-out;
 }
 
 /*=================================
@@ -345,6 +349,7 @@ nav li:nth-child(6) {
 .welcome a:hover {
   color: #f8a883;
   background: #fff;
+  transition: all .7s ease-out;
 }
 
 .welcome a:first-of-type { 
@@ -356,6 +361,7 @@ nav li:nth-child(6) {
   padding: 20px 4.1%;
   margin-left: 1.5%;
 }
+
  /*=================================
   welcome styling ends here
 =================================*/ 
@@ -423,6 +429,7 @@ nav li:nth-child(6) {
 .monthly a:hover {
   color: #fff;
   background: #4a484b;
+  transition: all .7s ease-out;
 }
 
  /*=================================
@@ -480,7 +487,7 @@ nav li:nth-child(6) {
 
 .feature h4 + p {
   font-size: 13px;
-  font-weight: 550;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
@@ -498,6 +505,7 @@ nav li:nth-child(6) {
 .features a:hover {
   color: #fff;
   background: #4a484b;
+  transition: all .7s ease-out;
 }
 
  /*=================================
@@ -541,6 +549,7 @@ nav li:nth-child(6) {
 .shop a:hover {
   color: #fff;
   background: #4a484b;
+  transition: all .7s ease-out;
 }
 
  /*=================================
@@ -550,7 +559,6 @@ nav li:nth-child(6) {
 /*=================================
   awards styling starts here
 =================================*/ 
-
 .awards{ 
   padding-top: 60px;
   text-align: center;
@@ -583,6 +591,7 @@ nav li:nth-child(6) {
 .awards  a:hover {
   color: #fff;
   background: #4a484b;
+  transition: all .7s ease-out;
 }
 
 .awards ul { margin-bottom: 25px;}
@@ -600,7 +609,6 @@ nav li:nth-child(6) {
 /*=================================
   reviews styling starts here
 =================================*/ 
-
 .reviews{ 
   padding-top: 60px;
   text-align: center;
@@ -648,7 +656,6 @@ nav li:nth-child(6) {
   background: #cac8cb;
 }
 
-
 .total-reviews span {
   color: #969499;
   font-size: 12px;
@@ -680,7 +687,6 @@ nav li:nth-child(6) {
   float: right;
   position: relative;
 }
-
 
 .slides .stars { 
   margin-bottom: 10px;
@@ -756,6 +762,7 @@ nav li:nth-child(6) {
 .reviews .review-slider + a:hover {
   color: #f8a883;
   background: #fff;
+  transition: all .7s ease-out;
 }
 
 .fa-angle-left span,
@@ -778,6 +785,7 @@ nav li:nth-child(6) {
 .fa-angle-left:hover,
 .fa-angle-right:hover {
   background: rgba(0,0,0,0.4);
+  transition: all .7s ease-out;
 }
 
 .fa-angle-left { 
@@ -785,7 +793,6 @@ nav li:nth-child(6) {
   left: -35px;}
 
 .fa-angle-right { right: 0px;}
-
 
  /*=================================
   reviews styling ends here
@@ -798,7 +805,6 @@ nav li:nth-child(6) {
 /*=================================
   footer styling starts here
 =================================*/ 
-
 footer {
   padding-top: 45px;
   clear: both;
@@ -910,9 +916,8 @@ footer h5 { margin-bottom: 28px;}
 .copyright li a:hover {
 color: #f8a883;
 cursor: pointer;
+transition: all .7s ease-out;
 }
-
-
 
 .mail-letter p {
   margin-bottom: 16px;
@@ -954,9 +959,9 @@ cursor: pointer;
 
 .mail-letter a:hover {
   background: #fff;
-  color: #4f494b;;
+  color: #4f494b;
+  transition: all .7s ease-out;
 }
-
 
 .mail-letter span {
   font-size: 14px;
@@ -982,11 +987,6 @@ cursor: pointer;
   background:#9f9da0;
   left: 0;
 }
-
-
-
-
-
 
  /*=================================
   footer styling ends here
